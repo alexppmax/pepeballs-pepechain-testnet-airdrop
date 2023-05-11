@@ -13,9 +13,17 @@ export const Main = (props: FlexProps) => {
         <br />
         <br />
         <p className={styles.description}>
-          Stay tuned for the exciting launch of Pepechain, the state-of-the-art
-          L2 rollup chain for memecoin traders, gaming enthusiasts, and DeFi
-          users! Grab your Pepeball now!
+          Mint your own Pepeball token on the Pepechain Testnet and unlock a
+          universe of benefits and exclusive early bird rewards. Why wait? Dive
+          into the Pepechain Testnet adventure today!<br></br>
+          <br></br>For more details, visit{" "}
+          <a
+            href="https://docs.pepemon.world/pepechain"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            docs.pepemon.world/pepechain
+          </a>
         </p>
         <br />
         <br />

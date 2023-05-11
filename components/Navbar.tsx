@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <Box as="nav" role="navigation" bg="bg-accent">
       <Container>
-        <Placeholder minH="40">Welcome Pepefren</Placeholder>
+        <Placeholder minH="40"></Placeholder>
       </Container>
     </Box>
   );
