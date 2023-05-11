@@ -33,3 +33,7 @@
   align-items: center;
   border-top: 1px solid #eaeaea;
 }
+
+.titleContainer {
+  padding-top: 100px;
+}
