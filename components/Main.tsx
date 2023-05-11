@@ -16,16 +16,15 @@ export const Main = (props: FlexProps) => {
     <Flex as="main" role="main" direction="column" flex="1" py="16" {...props}>
       <Container textAlign="center" flex="1" maxW="container.md">
         <div className={styles.titleContainer}>
-          <h1 className={styles.title}>
-            Welcome to Pepeballs Airdrop on Pepechain Testnet
-          </h1>
+          <h1 className={styles.title}>Welcome to Pepechain Testnet, anon</h1>
         </div>
         <br />
         <br />
         <p className={styles.description}>
-          Mint your own Pepeball token on the Pepechain Testnet and unlock a
-          universe of benefits and exclusive early bird rewards. Why wait? Dive
-          into the Pepechain Testnet adventure today!
+          Claim your very own Pepeball, Mint your Pepe Punks or Bid on Pepesea
+          on the Pepechain Testnet and unlock a universe of benefits and
+          exclusive early bird rewards. Why wait? Dive into the Pepechain
+          Testnet adventure today!
           <br />
           <br />
           For more details, visit{" "}
@@ -33,6 +32,7 @@ export const Main = (props: FlexProps) => {
             href="https://docs.pepemon.world/pepechain"
             target="_blank"
             rel="noopener noreferrer"
+            style={{ fontWeight: "bold", textDecoration: "underline" }}
           >
             docs.pepemon.world/pepechain
           </a>
