@@ -11,7 +11,7 @@ export const Footer = (props: BoxProps) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit Pepemon World for more information
+            Visit Pepemon.World for more information
           </a>
         </Center>
       </Container>
