@@ -1,11 +1,11 @@
-import { Box, BoxProps, Container } from "@chakra-ui/react";
+import { Box, BoxProps, Container, Center } from "@chakra-ui/react";
 import { Placeholder } from "./Placeholder";
 
 export const Footer = (props: BoxProps) => {
   return (
     <Box as="footer" role="contentinfo" bg="bg-accent" {...props}>
       <Container>
-        <center>
+        <Center>
           <a
             href="https://pepemon.world"
             target="_blank"
@@ -13,7 +13,7 @@ export const Footer = (props: BoxProps) => {
           >
             Visit Pepemon World for more information
           </a>
-        </center>
+        </Center>
       </Container>
     </Box>
   );
