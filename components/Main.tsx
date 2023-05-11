@@ -7,7 +7,9 @@ export const Main = (props: FlexProps) => {
     <Flex as="main" role="main" direction="column" flex="1" py="16" {...props}>
       <Container flex="1">
         <center>
-          <h1 className={styles.title}>Welcome to Pepechain Testnet</h1>
+          <h1 className={styles.title}>
+            Welcome to Pepeballs Pepechain Testnet Airdrop
+          </h1>
           <br></br>
           <br></br>
           <p className={styles.description}>
