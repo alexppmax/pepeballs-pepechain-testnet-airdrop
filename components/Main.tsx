@@ -21,10 +21,10 @@ export const Main = (props: FlexProps) => {
         <br />
         <br />
         <p className={styles.description}>
-          Claim your very own Pepeball, Mint your Pepe Punk or Bid on Pepesea on
-          the Pepechain Testnet and unlock a universe of benefits and exclusive
-          early bird rewards. Why wait? Dive into the Pepechain Testnet
-          adventure today!
+          Claim your very own Pepeball, Mint your Pepemon Avatar or Bid on
+          Pepesea on Pepechain Testnet and unlock a universe of benefits and
+          exclusive early bird rewards. Why wait? Dive into the Pepechain
+          Testnet adventure today!
           <br />
           <br />
           For more details, visit{" "}
@@ -49,7 +49,7 @@ export const Main = (props: FlexProps) => {
           <button
             onClick={() => handleTabChange("erc20")}
             style={{
-              backgroundColor: selectedTab === "erc20" ? "#5A67D8" : "#E2E8F0",
+              backgroundColor: selectedTab === "erc20" ? "#66d86a" : "#E2E8F0",
               color: selectedTab === "erc20" ? "white" : "black",
               border: "none",
               padding: "8px 16px",
@@ -62,7 +62,7 @@ export const Main = (props: FlexProps) => {
           <button
             onClick={() => handleTabChange("erc721")}
             style={{
-              backgroundColor: selectedTab === "erc721" ? "#5A67D8" : "#E2E8F0",
+              backgroundColor: selectedTab === "erc721" ? "#66d86a" : "#E2E8F0",
               color: selectedTab === "erc721" ? "white" : "black",
               border: "none",
               padding: "8px 16px",
@@ -70,13 +70,13 @@ export const Main = (props: FlexProps) => {
               cursor: "pointer",
             }}
           >
-            Mint Pepe Punks
+            Mint Pepemon Avatars
           </button>
           <button
             onClick={() => handleTabChange("marketplace")}
             style={{
               backgroundColor:
-                selectedTab === "marketplace" ? "#5A67D8" : "#E2E8F0",
+                selectedTab === "marketplace" ? "#66d86a" : "#E2E8F0",
               color: selectedTab === "marketplace" ? "white" : "black",
               border: "none",
               padding: "8px 16px",
@@ -101,7 +101,7 @@ export const Main = (props: FlexProps) => {
           )}
           {selectedTab === "erc721" && (
             <iframe
-              src="https://ipfs.thirdwebcdn.com/ipfs/QmfK9mw9eQKE9vCbtZht9kygpkNWffdwibsJPnCo7MBN4M/erc721.html?contract=0xab051b0E3fFFC28D7b458483A8bd6A545B89D099&chain=%7B%22name%22%3A%22pepechain-testnet%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fl2-pepechain-testnet-8uk55qlld4.t.conduit.xyz%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22pepETH%22%2C%22name%22%3A%22pepETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22pepechain-testnet%22%2C%22chainId%22%3A906090%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22pepechain-testnet%22%7D"
+              src="https://ipfs.thirdwebcdn.com/ipfs/QmfK9mw9eQKE9vCbtZht9kygpkNWffdwibsJPnCo7MBN4M/marketplace-v3.html?contract=0x2FCb67128BE211D7c94dA8990AC61E6af2Ea0BD0&chain=%7B%22name%22%3A%22pepechain-testnet%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fl2-pepechain-testnet-8uk55qlld4.t.conduit.xyz%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22pepETH%22%2C%22name%22%3A%22pepETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22pepechain-testnet%22%2C%22chainId%22%3A906090%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22pepechain-testnet%22%7D&directListingId=0&primaryColor=red&secondaryColor=red"
               width="600px"
               height="600px"
               style={{ maxWidth: "100%" }}
@@ -110,7 +110,7 @@ export const Main = (props: FlexProps) => {
           )}
           {selectedTab === "marketplace" && (
             <iframe
-              src="https://ipfs.thirdwebcdn.com/ipfs/QmfK9mw9eQKE9vCbtZht9kygpkNWffdwibsJPnCo7MBN4M/marketplace-v3.html?contract=0x2FCb67128BE211D7c94dA8990AC61E6af2Ea0BD0&chain=%7B%22name%22%3A%22pepechain-testnet%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fl2-pepechain-testnet-8uk55qlld4.t.conduit.xyz%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22pepETH%22%2C%22name%22%3A%22pepETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22pepechain-testnet%22%2C%22chainId%22%3A906090%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22pepechain-testnet%22%7D&englishAuctionId=0&primaryColor=blue&secondaryColor=blue"
+              src="https://ipfs.thirdwebcdn.com/ipfs/QmfK9mw9eQKE9vCbtZht9kygpkNWffdwibsJPnCo7MBN4M/marketplace-v3.html?contract=0x2FCb67128BE211D7c94dA8990AC61E6af2Ea0BD0&chain=%7B%22name%22%3A%22pepechain-testnet%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fl2-pepechain-testnet-8uk55qlld4.t.conduit.xyz%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22pepETH%22%2C%22name%22%3A%22pepETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22pepechain-testnet%22%2C%22chainId%22%3A906090%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22pepechain-testnet%22%7D&englishAuctionId=1&theme=system"
               width="600px"
               height="600px"
               style={{ maxWidth: "100%" }}
@@ -127,7 +127,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pepechain Testnet PPBLZ Airdrop</title>
+        <title>Pepechain Testnet dApp</title>
         <meta
           name="description"
           content="Grab your PPBLZ on the Pepechain Testnet"
