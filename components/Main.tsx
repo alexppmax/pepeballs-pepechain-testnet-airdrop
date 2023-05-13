@@ -21,10 +21,10 @@ export const Main = (props: FlexProps) => {
         <br />
         <br />
         <p className={styles.description}>
-          Claim your very own Pepeball, Mint your Pepe Punks or Bid on Pepesea
-          on the Pepechain Testnet and unlock a universe of benefits and
-          exclusive early bird rewards. Why wait? Dive into the Pepechain
-          Testnet adventure today!
+          Claim your very own Pepeball, Mint your Pepe Punk or Bid on Pepesea on
+          the Pepechain Testnet and unlock a universe of benefits and exclusive
+          early bird rewards. Why wait? Dive into the Pepechain Testnet
+          adventure today!
           <br />
           <br />
           For more details, visit{" "}

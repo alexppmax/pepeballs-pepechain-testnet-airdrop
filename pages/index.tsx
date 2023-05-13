@@ -6,15 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <style>
-          {`
-            @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-          `}
-        </style>
-        <title>Pepechain Testnet PPBLZ Airdrop</title>
+        <title>Pepechain Testnet dApp</title>
         <meta
           name="description"
-          content="Grab your PPBLZ on the Pepechain Testnet"
+          content="Start your Pepechain Testnet journey by participating in on-chain quests!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
