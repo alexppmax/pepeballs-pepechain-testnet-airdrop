@@ -130,7 +130,7 @@ export default function Home() {
         <title>Pepechain Testnet dApp</title>
         <meta
           name="description"
-          content="Grab your PPBLZ on the Pepechain Testnet"
+          content="Start your journey on Pepechain Testnet"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
